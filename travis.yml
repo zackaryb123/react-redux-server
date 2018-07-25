@@ -1,0 +1,10 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key: <API KEY>
+  app: react-redux-server
+  on:
+    repo: zackaryb123/react-redux-server
